@@ -3,6 +3,7 @@
 }
 
 .App-logo {
+  justify-content: center;
   height: 40vmin;
   pointer-events: none;
 }
@@ -27,5 +28,3 @@
 .App-link {
   color: #61dafb;
 }
-
-
