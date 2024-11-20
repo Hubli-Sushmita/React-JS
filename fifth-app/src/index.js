@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from './scc2.png';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
@@ -10,6 +11,7 @@ let a="Panera"
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+  <img src={logo}/>
     <HelloMessage name="Sushmita" age="21"/>
     <HelloMessage name="Hubli" age="21">
     <p>sushmita hubli studies in Northeastern University.</p>
